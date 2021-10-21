@@ -1,0 +1,40 @@
+.page {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #2A2C2F;
+    border: 1px solid red;
+    min-height: 100px;
+    box-sizing: border-box;
+    padding-top: 28px;
+    color: #FFFFFF;
+}
+
+@media all and (max-width: 320px) {
+    .page {
+        padding-top: 16px;
+    }
+}
+
+/* Основной код для разрешения 1024px */
+@media screen and (min-width: 2560px) {
+    /* стили для больших мониторов с разрешением 4K */
+}
+@media screen and (min-width: 1440px) {
+    /* стили для больших настольных компьютеров и ноутбуков */
+}
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+}
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+}
+@media screen and (max-width: 425px) {
+    /* стили для широкого смартфона */
+}
+@media screen and (max-width: 375px) {
+    /* стили для среднего смартфона */
+}
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+} 
