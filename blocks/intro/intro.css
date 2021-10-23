@@ -1,5 +1,9 @@
 .intro {
-    max-width: 690px;
-    margin-left: 146px;
+    font-family: 'Inter', Arial, sans-serif;
+    color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    max-width: 984px;
+    margin: 0 auto;
     border: red solid 1px;
 }

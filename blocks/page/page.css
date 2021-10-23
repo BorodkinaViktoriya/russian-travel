@@ -1,16 +1,13 @@
 .page {
-    max-width: 1280px;
-    margin: 0 auto;
-    font-family: 'Inter', Arial, sans-serif;
+    max-width: 100vw;
     background-color: #2A2C2F;
     border: 1px solid red;
-    min-height: 100px;
     box-sizing: border-box;
     padding-top: 28px;
-    color: #FFFFFF;
+    padding-bottom: 24px;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .page {
         padding-top: 16px;
     }
@@ -37,4 +34,11 @@
 }
 @media screen and (max-width: 320px) {
     /* стили для малого смартфона */
-} 
+}
+
+/* Рекомендуем сосредоточиться на пяти интервалах:
+    от 1280 пикселей — от стандартных ноутбуков и до бесконечности,
+    от 1024 и до 1280 — для небольших ноутбуков,
+    от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета,
+    от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета,
+    до 425 пикселей — мобильные устройства. */
