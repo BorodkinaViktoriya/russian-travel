@@ -7,19 +7,23 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
     .header {
-        max-width: calc(100%);
+        max-width: 91vw;
     }
 } 
 
+@media screen and (max-width: 928px) {
+    .header {
+        max-width: 94vw;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .header {
-        max-width: calc(100%);
-        max-height: 42px;
+        max-width: 90vw;
     }
 }

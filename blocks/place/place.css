@@ -15,3 +15,32 @@
 .place:last-of-type {
     margin: 0;
 }
+
+@media screen and (max-width: 1279px) {
+    .place  {
+        max-width: 928px;
+        grid-template-columns: 440px 1fr;
+        grid-column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .place  {
+        margin-bottom: 73px;
+        grid-column-gap: 28px;
+        grid-template-columns: 340px 1fr;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .place {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place  {
+        margin-bottom: 50px;
+        grid-row-gap: 32px;
+    }
+}

@@ -9,3 +9,16 @@
     justify-content: space-between;
     border: 1px solid red;
 }
+
+@media screen and (max-width: 928px) {
+    .footer  {
+        max-width: 94vw;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer  {
+    flex-direction: column;
+    max-width: 90vw;
+    }
+}

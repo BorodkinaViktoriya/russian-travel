@@ -6,3 +6,18 @@
     margin: 0 auto;
     position: relative;
 }
+
+@media screen and (max-width: 728px) {
+    .cover__subtitle  {
+        font-size: 15px;
+        line-height: 1.14;
+        max-width: 328px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__subtitle {
+        max-width: 288px;
+        font-size: 14px;
+    }
+}

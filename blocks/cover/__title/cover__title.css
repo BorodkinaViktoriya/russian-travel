@@ -6,3 +6,33 @@
     margin: 245px auto 32px;
     position: relative;
 }
+
+@media screen and (max-width: 1184px) {
+    .cover__title  {
+        margin-top: 195px;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .cover__title  {
+        margin-top: 115px;
+    }
+}
+
+@media screen and (max-width: 728px) {
+    .cover__title  {
+        margin-bottom: 18px;
+        font-size: 50px;
+        line-height: 1.09;
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__title  {
+        margin-top: 33px;
+        margin-bottom: 16px;
+        max-width: 288px;
+        font-size: 32px;
+    }
+}

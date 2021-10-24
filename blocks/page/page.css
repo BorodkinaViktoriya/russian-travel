@@ -1,39 +1,16 @@
 .page {
     max-width: 100vw;
     background-color: #2A2C2F;
-    border: 1px solid red;
     box-sizing: border-box;
     padding-top: 28px;
     padding-bottom: 24px;
 }
 
-@media all and (max-width: 425px) {
+
+@media screen and (max-width: 425px) {
     .page {
         padding-top: 16px;
     }
-}
-
-/* Основной код для разрешения 1024px */
-@media screen and (min-width: 2560px) {
-    /* стили для больших мониторов с разрешением 4K */
-}
-@media screen and (min-width: 1440px) {
-    /* стили для больших настольных компьютеров и ноутбуков */
-}
-@media screen and (max-width: 1024px) {
-    /* стили для планшета в альбомной ориентации */
-}
-@media screen and (max-width: 768px) {
-    /* стили для планшета */
-}
-@media screen and (max-width: 425px) {
-    /* стили для широкого смартфона */
-}
-@media screen and (max-width: 375px) {
-    /* стили для среднего смартфона */
-}
-@media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
 }
 
 /* Рекомендуем сосредоточиться на пяти интервалах:

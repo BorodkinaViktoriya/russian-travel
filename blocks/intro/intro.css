@@ -7,3 +7,21 @@
     margin: 0 auto;
     border: red solid 1px;
 }
+
+@media screen and (max-width: 1279px) {
+    .intro  {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .intro  {
+        max-width: 94vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro  {
+        max-width: 90vw;
+    }
+}
