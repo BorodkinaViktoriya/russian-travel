@@ -1,8 +1,10 @@
 .place__link {
-    margin: 12px 0 0;
     font-size: 18px;
+    font-weight: normal;
     line-height: 1.22;
     color: #FFFFFF;
+    margin: 12px 0 0;
+    display: inline-block;
 }
 
 .place__link:hover {

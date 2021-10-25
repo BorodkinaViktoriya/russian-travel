@@ -10,6 +10,12 @@
     border: 1px solid red;
 }
 
+@media screen and (max-width: 1270px) {
+    .footer    {
+        max-width: 928px;
+    }
+}
+
 @media screen and (max-width: 928px) {
     .footer  {
         max-width: 94vw;

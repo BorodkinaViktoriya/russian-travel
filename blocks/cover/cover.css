@@ -37,3 +37,9 @@
        max-height: 62.5vw;
     }
 }
+@media screen and (max-width: 1020px) {
+    .cover  {
+       margin-top: 90px;
+       margin-bottom: 88px;
+    }
+}
