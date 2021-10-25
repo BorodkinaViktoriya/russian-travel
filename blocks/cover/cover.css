@@ -13,7 +13,8 @@
     background-position: center;
     text-align: center;
     position: relative;
-    border: 1px solid red;
+    box-sizing: border-box;
+    padding-top: 245px;
 }
 
 .cover::before {
@@ -35,11 +36,31 @@
     .cover  {
        max-width: 100vw;
        max-height: 62.5vw;
+       padding-top: 195px;
     }
 }
+
 @media screen and (max-width: 1020px) {
     .cover  {
        margin-top: 90px;
        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .cover  {
+        padding-top: 115px;
+    }
+}
+
+@media screen and (max-width: 728px) {
+    .cover  {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover  {
+        padding-top: 33px;
     }
 }
