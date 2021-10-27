@@ -1,29 +1,29 @@
 .lead {
-    font-family: 'Inter', Arial, sans-serif;
-    color: #FFFFFF;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    max-width: 984px;
-    margin: 55px auto 92px;
-    text-align: center;
-    font-size: 0;
-    object-fit: cover;
+  font-family: "Inter", Arial, sans-serif;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 984px;
+  margin: 55px auto 92px;
+  text-align: center;
+  font-size: 0;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1279px) {
-    .lead  {
-        max-width: 928px;
-        margin-top: 48px;
-    }
+  .lead {
+    max-width: 928px;
+    margin-top: 48px;
+  }
 }
 
 @media screen and (max-width: 928px) {
-    .lead  {
-        margin-bottom: 88px;
-    }
+  .lead {
+    margin-bottom: 88px;
+  }
 }
 @media screen and (max-width: 425px) {
-    .lead  {
-        margin-bottom: 64px;
-    }
+  .lead {
+    margin-bottom: 64px;
+  }
 }

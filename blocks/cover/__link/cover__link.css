@@ -1,0 +1,33 @@
+.cover__link {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  min-height: 740px;
+  padding-top: 245px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1184px) {
+  .cover__link {
+    min-height: 62.5vw;
+    padding-top: 195px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .cover__link {
+    padding-top: 115px;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .cover__link {
+    padding-top: 70px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__link {
+    padding-top: 33px;
+  }
+}

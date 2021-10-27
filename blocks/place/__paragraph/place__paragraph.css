@@ -1,37 +1,35 @@
 .place__paragraph {
-    max-width: 484px;
-    margin: 0 0 26px;
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 1.63;
+  max-width: 484px;
+  margin: 0 0 26px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.63;
 }
 
 .place__paragraph:last-of-type {
-    margin: 0;
+  margin: 0;
 }
 
-
 @media screen and (max-width: 1279px) {
-    .place__paragraph  {
-        margin-bottom: 27px;
-    }
+  .place__paragraph {
+    margin-bottom: 27px;
+  }
 }
 
 @media screen and (max-width: 928px) {
-    .place__paragraph  {
-        margin-bottom: 25px;
-        font-size: 16px;
-    }
+  .place__paragraph {
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
 }
 
-
 @media screen and (max-width: 425px) {
-    .place__paragraph  {
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-    .place__paragraph:last-of-type {
-        margin-right: 5vw;
-        margin-left: 5vw;
-    }
+  .place__paragraph {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .place__paragraph:last-of-type {
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
 }
