@@ -2,7 +2,6 @@
   margin: 0 0 7px;
   list-style: none;
   display: flex;
-  max-width: 77px;
-  justify-content: space-between;
   align-items: flex-end;
+  padding: 0;
 }
