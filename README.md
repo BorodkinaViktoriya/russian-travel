@@ -13,6 +13,6 @@
 
 В проекте реализована отзывчивая верстка для различных экранов. От экрана мобильного тедлефона до обычного монитора.
 
-[Ссылка на проект]([http://example.com](https://borodkinaviktoriya.github.io/russian-travel/index.html)){target="_blank"}
+[link]([http://example.com](https://borodkinaviktoriya.github.io/russian-travel/index.html)){target="_blank"}
 
-<a href="[http://example.com/](https://borodkinaviktoriya.github.io/russian-travel/index.html)" target="_blank">Ссылка на проект</a>  
+<a href="http://example.com/](https://borodkinaviktoriya.github.io/russian-travel/index.html" target="_blank">Ссылка на проект</a>  
