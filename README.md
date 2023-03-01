@@ -14,4 +14,4 @@
 В проекте реализована отзывчивая верстка для различных экранов. От экрана мобильного тедлефона до обычного монитора.
 
 
-ссылка проекта:  https://borodkinaviktoriya.github.io/russian-travel/index.html 
+ссылка проекта:  <a href="[http://example.com/](https://borodkinaviktoriya.github.io/russian-travel/index.html)" target="_blank">example</a>  
