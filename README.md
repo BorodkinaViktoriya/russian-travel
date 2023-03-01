@@ -15,4 +15,4 @@
 
 [link]([http://example.com](https://borodkinaviktoriya.github.io/russian-travel/index.html)){target="_blank"}
 
-<a href="http://example.com/](https://borodkinaviktoriya.github.io/russian-travel/index.html" target="_blank">Ссылка на проект</a>  
+<a href="https://borodkinaviktoriya.github.io/russian-travel/index.html" target="_blank">Ссылка на проект</a>  
